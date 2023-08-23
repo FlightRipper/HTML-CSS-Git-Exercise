@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <header role="banner">
+  <head>
     <meta charset="utf-8" />
     <title>3. Semantic HTML - HTML, CSS and Git Exercises</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="/css/week1.css" />
     <link rel="stylesheet" href="/css/message.css" />
     <link rel="stylesheet" href="/css/result.css" />
-  </header>
+  </head>
 
-  <main role="main">
+  <body>
     <article class="site-wrapper">
-      <article class="site-header">
+      <header role="banner" class="site-header">
         <article class="site-header__title">Messages</article>
-      </article>
-      <article class="messages">
+      </header>
+      <main role="main" class="messages">
         <article class="message">
           <article class="message__author">Won</article>
           <p class="message__content">Where should we meet later?</p>
@@ -35,9 +35,9 @@
           </p>
           <span class="message__time">Mar 25, 2018 7:38pm</span>
         </article>
-      </article>
+      </main>
       <article id="result" class="result"></article>
     </article>
     <script defer src="/js/3-result.js"></script>
-  </main>
+  </body>
 </html>
