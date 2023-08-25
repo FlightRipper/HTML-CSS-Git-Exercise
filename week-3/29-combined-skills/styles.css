@@ -32,6 +32,10 @@
   .views__title {
     margin-right: 50px;
   }
+
+  .views__all {
+    margin-left: auto;
+  }
 }
 
 .site-content {
